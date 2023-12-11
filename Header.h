@@ -9,9 +9,6 @@
 #include<sstream>
 #include<iomanip>
 using namespace std;
-
-
-
 class Admin
 {
 protected:
@@ -39,7 +36,7 @@ protected:
 	int studentCount;
 	int teacherCount;
 
-	string Blood_Gorup;
+	string Blood_Group;
 	int teacher_ID;
 	int student_ID;
 

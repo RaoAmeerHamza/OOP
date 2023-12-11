@@ -1,6 +1,7 @@
 #include<iostream>
 #include"Header.h"
 
+using namespace std;
 int main()
 {
 	Admin* adminObject = NULL;
@@ -78,6 +79,7 @@ int main()
 				}
 				case'7':
 				{
+					system("cls");
 					check1 = true;
 					cout << "You Loged Out\n";
 					break;
@@ -248,6 +250,9 @@ int main()
 		else if (mainChoice == '4')
 		{
 			check = true;
+			system("cls");
+			cout << "\t\t\t\tAllah De hawaly :-)\n\n\n";
+			return 0;
 		}
 
 		//Breaking Main Loop
@@ -256,8 +261,7 @@ int main()
 			break;
 		}
 	}
-
-
-	std::system("pause");
+	system("pause");
 	return 0;
 }
+
